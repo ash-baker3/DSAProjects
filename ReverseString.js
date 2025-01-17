@@ -1,5 +1,5 @@
 //my implementation
-function reverseString(str) {
+function reverseString1(str) {
   if (!str || str.length < 2 || typeof str !== "string") {
     //do nothing
     console.log(str + " is Not a string");
@@ -50,3 +50,7 @@ function reverseString3(str) {
   const reverseString = str.split("").reverse().join("");
   console.log("Reversed String is: " + reverseString);
 }
+
+//One-line Function
+const reverseString = (str) => str.split("").reverse().join("");
+console.log("Reversed String is: " + reverseString("Hi My Name is Ash"));
