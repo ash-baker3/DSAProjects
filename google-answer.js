@@ -23,4 +23,4 @@ function hasPairWithSum2(arr, sum) {
   return false;
 }
 
-console.log(hasPairWithSum2([6, 4, 3, 2, 1, 7], 9));
+console.log(hasPairWithSum2([5, 3, 3, 7], 9));
