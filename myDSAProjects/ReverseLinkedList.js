@@ -78,7 +78,8 @@ class LinkedList {
         if (!firstNode.next) {
             return this.printList();
         }
-        let secondNode = this.head.next;
+        this.tail = this.head;
+        let secondNode = firstNode.next;
 
         while(secondNode) {
             let temp = secondNode.next;
